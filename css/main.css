@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+table{
+    margin: 100px auto;
+}
+table,
+tr,
+td,
+th{
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 145, 255);
+}
+.th1{
+    padding-bottom: 200px;
+    width: 40px;
+}
+.th2{
+    transform: rotate(-90deg);
+    width: 160px;
+    height: 200px;
+}
+.th3{
+    transform: rotate(-90deg);
+    height: 150px;
+}
+.td1{
+    transform: rotate(-90deg);
+    width: 70px;
+}
+.td2{
+    text-align: center;
+}
+.td3{
+    transform: rotate(-90deg);
+    width: 20px;
+}
+.td4{
+    transform: rotate(-90deg);
+    width: 90px;
+    height: 100px;
+}
+.td5{
+    transform: rotate(-90deg);
+    width: 20px;
+    height: 100px;
+}
+.td6{
+    text-align: end;
+    padding-right: 5px;
+}
